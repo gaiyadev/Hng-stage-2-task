@@ -41,7 +41,7 @@ $ npm run test:cov
 **Request:**
 
 - **Method:** POST
-- **Endpoint:** `localhost:3000/api/`
+- **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/`
 - **Payload:**
 
 ```json
@@ -71,7 +71,7 @@ Status Code: 201 Created
 **Request:**
 
 - **Method:** GET
-- **Endpoint:** `localhost:3000/api/`
+- **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/`
 - Endpoint: `localhost:3000/api?search=musk`
 
 Response:
@@ -112,7 +112,7 @@ Status Code: 200 OK
 **Request:**
 
 - **Method:** GET
-- **Endpoint:** `localhost:3000/api/user_id`
+- **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/user_id`
 
 Response:
 Status Code: 200 OK
@@ -134,7 +134,7 @@ Status Code: 200 OK
 **Request:**
 
 - **Method:** PATCH
-- **Endpoint:** `localhost:3000/api/user_id`
+- **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/user_id`
 - **Payload:**
 
 ```json
@@ -164,7 +164,7 @@ Body:
 **Request:**
 
 - **Method:** DELETE
-- **Endpoint:** `localhost:3000/api/user_id`
+- **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/user_id`
 
 Response:
 
