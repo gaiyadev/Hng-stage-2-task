@@ -72,7 +72,7 @@ Status Code: 201 Created
 
 - **Method:** GET
 - **Endpoint:** `https://gaiyaobed-hng-stage-2-task.onrender.com/api/`
-- Endpoint: `localhost:3000/api?search=musk`
+- Endpoint: `https://gaiyaobed-hng-stage-2-task.onrender.com/api?search=musk`
 
 Response:
 
