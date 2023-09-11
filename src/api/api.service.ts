@@ -39,7 +39,8 @@ export class ApiService {
     try {
       const query = this.personRepository
         .createQueryBuilder('person')
-        .select(['person.id', 'person.name']);
+        .select(['person.id', 'person.name'])
+        .orderBy({ id: 'DESC' });
 
       if (filterDto.search) {
         query.andWhere('person.name LIKE :search', {
@@ -54,7 +55,6 @@ export class ApiService {
         data: data,
       };
     } catch (e) {
-      console.log(e)
       throw new InternalServerErrorException();
     }
   }

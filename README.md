@@ -190,7 +190,7 @@ In this E-R diagram representation:
 - `- id: number (PK)` indicates that `id` is the primary key of the table.
 - `- name: text` represents the `name` column with a data type of text.
 
-This diagram visually illustrates the structure of the `persons` table in your database, including its primary key and the `name` column.
+This diagram visually illustrates the structure of the `persons` table in the database, including its primary key and the `name` column.
 ![Alt Text](images/Document-1-SmartDraw-er.png)
 
 ## UML Digram
@@ -203,7 +203,8 @@ In this UML  diagram representation:
 - `-Update` indicates modification of person detail.
 - `-Delete` indicates removing a persons.
 
-This diagram visually illustrates the structure of the `persons` table in your database, including its primary key and the `name` column.
+This diagram visually illustrates the UML of the `actor` making api calls to `Create` `Read`
+`Delete` and `Update` endpoints.
 ![Alt Text](images/hng-stage-2-er-d.png)
 ## Support
 
