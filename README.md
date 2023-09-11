@@ -180,17 +180,19 @@ Status Code: 200 OK
   }
 }
 ```
+## E-R Digram
+
+In this E-R diagram representation:
+
+- `persons` is the table name.
+- `- id: number (PK)` indicates that `id` is the primary key of the table.
+- `- name: text` represents the `name` column with a data type of text.
+
+This diagram visually illustrates the structure of the `persons` table in your database, including its primary key and the `name` column.
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 ## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
