@@ -3,6 +3,11 @@
 ## Installation
 
 ```bash
+$ git clone https://github.com/gaiyadev/Hng-stage-2-task.git
+$ cd Hng-stage-2-task
+```
+
+```bash
 $ npm install
 ```
 
@@ -22,11 +27,8 @@ $ npm run start:prod
 ## Test
 
 ```bash
-# unit tests
-$ npm run test (Not captured)
-
 # e2e tests
-$ npm run test:e2e (currently working)
+$ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
@@ -70,7 +72,7 @@ Status Code: 201 Created
 
 - **Method:** GET
 - **Endpoint:** `localhost:3000/api/`
-- Endpoint: localhost:3000/api?search=musk
+- Endpoint: `localhost:3000/api?search=musk`
 
 Response:
 
@@ -127,7 +129,6 @@ Status Code: 200 OK
 }
 ```
 
-
 ## Update a Person
 
 **Request:**
@@ -180,6 +181,7 @@ Status Code: 200 OK
   }
 }
 ```
+
 ## E-R Digram
 
 In this E-R diagram representation:
@@ -189,7 +191,20 @@ In this E-R diagram representation:
 - `- name: text` represents the `name` column with a data type of text.
 
 This diagram visually illustrates the structure of the `persons` table in your database, including its primary key and the `name` column.
+![Alt Text](images/Document-1-SmartDraw-er.png)
 
+## UML Digram
+
+In this UML  diagram representation:
+
+- `Actor` is the person making api call.
+- `-Create` indicates adding new person.
+- `-Read` indicates getting all persons.
+- `-Update` indicates modification of person detail.
+- `-Delete` indicates removing a persons.
+
+This diagram visually illustrates the structure of the `persons` table in your database, including its primary key and the `name` column.
+![Alt Text](images/hng-stage-2-er-d.png)
 ## Support
 
 ## Stay in touch
