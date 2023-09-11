@@ -1,4 +1,4 @@
-# Hng Stage 2 Task Solution repository.
+# Hng Stage 2 Task Solution repository (Nestjs app).
 
 ## Installation
 
