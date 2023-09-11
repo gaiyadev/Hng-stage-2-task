@@ -1,4 +1,7 @@
-import { PartialType } from '@nestjs/mapped-types';
-import { CreateApiDto } from './create-api.dto';
+import { IsAlpha, IsNotEmpty } from 'class-validator';
 
-export class UpdateApiDto extends PartialType(CreateApiDto) {}
+export class UpdateApiDto {
+  @IsAlpha()
+  @IsNotEmpty()
+  name: string;
+}
