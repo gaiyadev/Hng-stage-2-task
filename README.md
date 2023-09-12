@@ -182,7 +182,7 @@ Status Code: 200 OK
 }
 ```
 
-## E-R Digram
+## E-R Diagram
 
 In this E-R diagram representation:
 
@@ -193,7 +193,7 @@ In this E-R diagram representation:
 This diagram visually illustrates the structure of the `persons` table in the database, including its primary key and the `name` column.
 ![Alt Text](images/Document-1-SmartDraw-er.png)
 
-## UML Digram
+## UML Diagram
 
 In this UML  diagram representation:
 
